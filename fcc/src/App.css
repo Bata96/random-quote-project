@@ -1,0 +1,82 @@
+#main {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#quote-box {
+  background-color: white;
+  width: 50vh;
+  min-height: 20vh;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+#text {
+font-size: 30px;
+text-align: center;
+margin-bottom: -10px;
+}
+
+#author {
+font-size: 20px;
+text-align: right;
+margin-bottom: 40px;
+}
+
+#tweet-quote {
+position: relative;
+color: white;
+padding: 10px;
+padding-bottom: 5px;
+border: 1px solid black;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+}
+
+#tumblr-quote {
+  position: relative;
+  color: white;
+  padding: 10px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  margin-left: 3px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#new-quote {
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  }
+
+.dugmad {
+  position: relative;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#tumblr-quote:hover, #tweet-quote:hover, #new-quote:hover {
+  background-color: black !important;
+  cursor: pointer;
+}
+
+.ikonica {
+  font-size: 20px;
+}
